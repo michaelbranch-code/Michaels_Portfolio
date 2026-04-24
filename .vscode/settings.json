@@ -1,0 +1,12 @@
+{
+  "files.exclude": {
+    "_site": true,
+    ".jekyll-cache": true,
+    ".sass-cache": true
+  },
+  "search.exclude": {
+    "_site": true,
+    ".jekyll-cache": true,
+    ".sass-cache": true
+  }
+}
