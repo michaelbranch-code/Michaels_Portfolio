@@ -130,12 +130,6 @@ section {
   color: var(--color-muted);
 }
 
-.breadcrumb a::after {
-  content: "/";
-  margin: 0 var(--space-small);
-  color: var(--color-border);
-}
-
 .hero {
   padding: var(--space-large);
   background: linear-gradient(
