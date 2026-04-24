@@ -1,0 +1,7 @@
+# Jekyll build output
+_site/
+
+# Jekyll local cache files
+.jekyll-cache/
+.jekyll-metadata
+.sass-cache/
