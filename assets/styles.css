@@ -24,8 +24,16 @@ body {
   margin: 0;
   min-height: 100vh;
   background:
-    radial-gradient(circle at top left, rgba(0, 217, 255, 0.14), transparent 32rem),
-    radial-gradient(circle at top right, rgba(255, 61, 139, 0.12), transparent 30rem),
+    radial-gradient(
+      circle at top left,
+      rgba(0, 217, 255, 0.14),
+      transparent 32rem
+    ),
+    radial-gradient(
+      circle at top right,
+      rgba(255, 61, 139, 0.12),
+      transparent 30rem
+    ),
     var(--color-background);
   color: var(--color-text);
   display: flex;
@@ -119,7 +127,11 @@ section {
 
 .hero {
   padding: var(--space-large);
-  background: linear-gradient(135deg, var(--color-surface), var(--color-surface-strong));
+  background: linear-gradient(
+    135deg,
+    var(--color-surface),
+    var(--color-surface-strong)
+  );
   border: 1px solid var(--color-border);
   border-radius: 8px;
   box-shadow: 0 20px 60px rgba(0, 0, 0, 0.35);
@@ -142,10 +154,17 @@ section {
   background: var(--color-surface);
   border: 1px solid var(--color-border);
   border-radius: 8px;
+  display: flex;
+  flex-direction: column;
 }
 
 .project-card h2 {
   margin-top: 0;
+  margin-bottom: 0;
+}
+
+.project-card__button {
+  margin-top: auto;
 }
 
 /* Links and buttons */
