@@ -4,19 +4,28 @@ title: Home
 ---
 
 <section class="hero">
-  <div class="hero__content">
-      <h1> Welcome to Michael Branchs Game and Web Development Portfolio.</h1>
-    <p>This portfolio was created to showcase my skills, experience, 
-      and passion for game design and web development as I pursue internship
-      opportunities in these fields. On the home page, you'll find featured projects that
-      highlight my work through detailed descriptions and narrated presentations. Throughout the
-      site, you can explore my technical skills, project experience, educational background, and learn more
-      about who I am as a developer and designer.</p>
-    <p>
-      <a class="button" href="{{ '/projects.html' | relative_url }}">View My Projects</a>
-    </p>
-  </div>
+    <div class="hero__content">
+        <h1> Welcome to Michael Branchs Game and Web Development Portfolio.</h1>
+        <p>
+            This portfolio was created to showcase my skills, experience,
+            and passion for game design and web development as I pursue internship
+            opportunities in these fields. On the home page, you'll find featured projects that
+            highlight my work through detailed descriptions and narrated presentations. Throughout the
+            site, you can explore my technical skills, project experience, educational background, and learn more
+            about who I am as a developer and designer.
+        </p>
+        <p>
+            <a class="button" href="{{ '/projects.html' | relative_url }}">View My Projects</a>
+        </p>
+    </div>
+    <section>
+        <h2>Red Planet</h2>
 
+        <video controls width="800">
+            <source src="{{ '/assets/lyrashooter.mp4' | relative_url }}" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </section>
 </section>
 
 <section style="text-align: center; margin: 40px 0;">
