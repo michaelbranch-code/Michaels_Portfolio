@@ -4,29 +4,47 @@ title: Resume
 ---
 
 <nav class="breadcrumb" aria-label="Breadcrumb">
-  <a href="{{ '/projects.html' | relative_url }}">Projects</a> /
-  <span>Shill Cares</span>
+    <a href="{{ '/projects.html' | relative_url }}">Projects</a> /
+    <span>Shill Cares</span>
 </nav>
 
 <section>
     <h1>Resume</h1>
-   
 
-    <p>Download Resume Here:</p>
-    <a href="assets/resume.pdf"
-       download="resume.pdf"
-       style="
-    display: inline-block;
-    padding: 10px 16px;
-    background-color: #333;
-    color: white;
-    text-decoration: none;
-    border-radius: 6px;
-  ">
-        Download Resume
-    </a>
-    <div style="display: flex; flex-direction: column; align-items: center;">
-        <img src="assets/Resume.png" alt="Unreal Engine" style="width: 500px; height: 500px; object-fit: contain;">
-       
+    <div style="
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 40px;
+    ">
+
+        <!-- Download button -->
+        <div>
+            <p>Download Resume Here:</p>
+
+            <a href="assets/resume.pdf"
+               download="resume.pdf"
+               style="
+                    display: inline-block;
+                    padding: 10px 16px;
+                    background-color: #333;
+                    color: white;
+                    text-decoration: none;
+                    border-radius: 6px;
+               ">
+                Download Resume
+            </a>
+        </div>
+
+        <!-- Resume image -->
+        <img src="assets/Resume.png"
+             alt="Resume"
+             style="
+                width: 700px;
+                height: 700px;
+                object-fit: contain;
+             ">
     </div>
+
 </section>
